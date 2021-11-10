@@ -33,7 +33,6 @@ def game_begin(start):
                     rounds = rounds_2
                     round_correct_func(rounds_2)
             elif rounds.isdigit() == True:
-                print(type(rounds))
                 if type(rounds) == float:
                     rounds_2 = input("Please enter a valid number of rounds: ")
                     rounds = rounds_2
